@@ -1,0 +1,55 @@
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 21%;
+    height: 400px;
+    margin: auto;
+    margin-top: 7%;
+    background-color: #f3f2ec;
+}
+.fa-sun{
+    font-size: 50px;
+    margin: 17% 0%;
+    color: #ffd966
+}
+.fa-street-view {
+    animation: rotates 3s linear infinite alternate;
+}
+@keyframes rotates {
+    from{
+        transform: translate(-0.8rem);
+    }
+    to{
+        transform: translate(0.2rem);
+    }
+}
+.fa-sun{
+    font-size: 4rem;
+    animation: fas-anime 3s linear infinite alternate;
+}
+@keyframes fas-anime {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+.weathercon{
+    border-radius: 8px 8px 0px 0px;
+    background-color: #a5bbdd;
+}
+#date{
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 1000px) and (min-width: 200px) {
+    .box {
+      width:250px
+    }
+  }
